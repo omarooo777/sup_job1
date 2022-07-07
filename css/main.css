@@ -1,0 +1,41 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit' , sans-serif;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.page {
+  background-color: hsl(0, 0%, 100%);
+  width: 335px;
+  height: 530px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+  border-radius: 20px;
+
+}
+
+.img1 {
+  width: 300px;
+  height: 290px;
+  margin: 17.5px;
+  border-radius: 10px;
+}
+
+.frist_line {
+  text-align: center;
+}
+
+.second_line {
+  color: hsl(220, 15%, 55%);
+  text-align: center;
+  width: 280px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
